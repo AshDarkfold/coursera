@@ -1,0 +1,81 @@
+body{
+  font-size: 16px
+}
+/** HEADER **/
+#header-nav {
+  background-color: #9D9494;
+  border: 2px solid;
+  border-radius: 0;
+  border-color: black;
+}
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { /* Food, LLC thing */
+  width: 100%;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-header{
+  width: 100%;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar button.navbar-toggle, .navbar .icon-bar{
+  border: 1px solid #61122f;
+}
+#nav-list{
+  width: 100%;
+  margin:0px auto 0px;
+  border: 3px solid black;
+  font-size: 1.4em;
+  float: right;
+
+}
+#nav-list li:nth-child(1){
+  border-bottom: 3px solid black;
+}
+#nav-list li:nth-child(2){
+  border-bottom: 3px solid black;
+}
+
+/*End of navbar*/
+.titlle{
+  font-size: 2.2em;
+  text-transform: uppercase;
+  margin: 10px auto 10px;
+}
+.container{
+  font-size: 1.3em;
+}
+div> h2{
+  text-align: center;
+}
+#home-tiles div{
+  margin-bottom: 15px;
+}
+#home-tiles div:nth-child(1){
+background-color: #E99494
+}
+#home-tiles div:nth-child(2){
+background-color: #94E9BC
+}
+#home-tiles div:nth-child(3){
+background-color: #E9DB94
+}
+/*End of body*/
+/*media queries*/
+@media (max-width: 767px) {
+  #home-tiles{
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+  }
+}
+@media (min-width: 767px){
+
+}
