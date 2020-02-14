@@ -1,0 +1,77 @@
+body{
+    font-family: 'Work Sans', sans-serif !important;
+    background-color: #fff2fd;
+    /* background: url('./assets/letterback.png') no-repeat; */
+    text-align: center;
+}
+
+.yeet{
+    position: fixed;
+    bottom: 0;
+    /* margin: auto auto;*/
+    text-align: center;
+    width: 100%;
+}
+
+.yeet img{
+    display: inline-block;
+    width: 52%;
+    height: auto;
+}
+.letter{
+    width: 50%;
+    display: inline-block;
+    background-color: #e9e5d2;
+    border-radius: 2px;
+    margin-bottom: 430px;
+    margin-top: 400px;
+}
+.container1{
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    /* display: inline-block; */
+    margin: auto auto;
+}
+
+.title{
+    display: inline-block;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.leftimages{
+    position: fixed;
+    left: 0px;
+    bottom: 50%;
+    margin-left: 10vw;
+}
+.rightimages{
+    position: fixed;
+    right: 0px;
+    bottom: 50%;
+    margin-right: 10vw;
+}
+
+@media(min-width: 1200px){
+    .container1{
+        width: 60%;
+    }
+    .yeet img{
+        width: 32%;
+    }
+}
+@media(max-width: 780px){
+    .container1{
+        width: 100%;
+    }
+    .yeet img{
+        width: 60%;
+    }
+}
+.imgs{
+    max-width: 200px;
+    height: auto;
+    display: none;
+
+}
